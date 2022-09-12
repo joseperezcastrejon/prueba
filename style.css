@@ -1,0 +1,143 @@
+body {
+	font-family: 'Licorice', cursive;
+}
+h1 {
+	display: flex;
+	margin-top: 20px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+.father{
+   display: inline-block;
+   width: auto;
+   margin: auto;
+   text-align: justify;
+   position: relative;
+}
+@media(min-width: 992px) {
+		.seccion1 {
+		    margin-left: 12px;
+		    float: left;
+		    position: relative;
+		    width: 30%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+		.seccion2 {
+		    margin-left: 12px;
+		    float: left;
+		    position: relative;
+		    width: 30%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+		.seccion3 {
+		    margin-left: 12px;
+		    float: left;
+		    position: relative;
+		    width: 30%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+}
+@media(min-width: 768px) and (max-width:  991px) {
+		.seccion1 {
+		    margin-left: 12px;
+		    float: left;
+		    position: relative;
+		    width: 45%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+		.seccion2 {
+		    margin-left: 12px;
+		    float: left;
+		    position: relative;
+		    width: 45%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+		.seccion3 {
+		    margin-left: 12px;
+		    margin-top: 12px;
+		    float: left;
+		    position: relative;
+		    width: 92%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+
+}
+@media(max-width:  767px) {
+		.seccion1 {
+		    margin-left: 12px;
+		    position: relative;
+		    width: 90%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+		.seccion2 {
+		    margin-left: 12px;
+		    margin-top: 12px;
+		    position: relative;
+		    width: 90%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+		.seccion3 {
+		    margin-left: 12px;
+            margin-top: 12px;		    
+		    position: relative;
+		    width: 90%;
+		    border: black solid 3px;
+		    height: auto;
+		    background-color: grey;
+		}
+
+}
+.texto {
+	box-sizing: border-box;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10%;
+	margin-bottom: 3%;
+}
+.p1 {
+    margin:  0;
+	border-bottom: black solid 3px;
+	border-left: black solid 3px;	
+	width: 30%;
+	background-color: #f0907b;
+	float: right;
+	text-align: center;
+
+}
+.p2 {
+    margin:  0;
+	border-bottom: black solid 3px;
+	border-left: black solid 3px;	
+	width: 30%;
+	background-color: #c1391c;
+	float: right;
+	text-align: center;	
+
+}
+.p3 {
+    margin:  0;
+	border-bottom: black solid 3px;
+	border-left: black solid 3px;	
+	width: 30%;
+	background-color: #e0c790 ;
+	float: right;
+	text-align: center;	
+}
